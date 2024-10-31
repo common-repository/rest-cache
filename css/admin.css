@@ -1,0 +1,18 @@
+tr.rest-cache-editing button[data-action='edit'],
+	tr:not(.rest-cache-editing) button[data-action='update'],
+	tr:not(.rest-cache-editing) button[data-action='cancel']
+{
+	display: none;
+}
+
+#records [data-field="uri"],
+	#records [data-field="filename"]
+{
+	font-family: monospace;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 15vw;
+	direction: rtl;
+	text-align: left;
+}

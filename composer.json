@@ -1,0 +1,6 @@
+{
+    "require": {
+        "perry-rylance/wordpress-plugin": "^1.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
